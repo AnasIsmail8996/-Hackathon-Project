@@ -1,0 +1,276 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+  }
+  @font-face {
+    font-family: 'MyFont', sans-serif; 
+  
+    src: url('./Helvetica.ttf') format('.ttf'), 
+     
+   
+}
+  @font-face {
+  
+    font-family: 'MyFontBold', sans-serif; 
+    src: url('./Helvetica-Bold.ttf') format('.ttf');
+   
+}
+
+
+
+
+
+  .theme-btn-outlined {
+    padding: 10px 20px;
+    border-radius: 12px;
+  }
+  
+  .btn-theme-black {
+    background-color: #191a23 !important    ;
+    color: #fff !important;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+  
+  .btn-theme-black:hover {
+    background-color: #191a23 ;
+    color: #fff;
+  }
+  
+  .theme-white {
+    padding: 10px 20px !important;
+    border-radius: 12px !important;
+  }
+  .theme-white:hover{
+    background-color: #fff !important;
+    color: #191a23 !important;
+  
+    
+  }
+  
+  .main-header-content {
+   
+    gap: 25px;
+  }
+  
+  .image-box > img {
+  
+    width: 95%;
+    object-fit: contain !important;
+  }
+  
+  .brand-logos > div > img {
+      filter: grayscale(1);
+  }
+  .navbar-brand{
+    display: flex !important;
+    gap: 4px;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-brand img h1{
+    font-family: "Space Grotesk", sans-serif !important;
+    font-size: 45px !important;
+  }
+
+  .nav-item{ 
+   
+  }
+  
+  .nav-item  .nav-link:hover{
+   color: #191a23;
+  
+  }
+
+  /* card section */
+  .card{
+   
+  }
+  .card-img-top{
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .card-heading-text{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+  }
+  .card-title{
+    text-align: center !important;;
+  }
+  /* first page ending here */
+
+/*serveses web hosting  page starting from here  */
+
+.serveses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serveses img{
+  width: 100% !important;
+  object-fit: contain;
+  
+  height: 747px !important;
+}
+.serveses-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serveses-para h1{
+  line-height: normal !important;
+  width: 85% !important;
+  font-family: 'myfontBold', sans-serif;
+font-size: 60px;
+font-weight: 700;
+color: #000000;
+text-align: center !important;;
+
+}
+
+.serveses-para p{
+     width: 75% !important;
+   line-height: none !important;
+   list-style: none !important;
+     font-family: 'MyFont', sans-serif; 
+     font-size: 25px;
+     font-weight: 400;
+     color: #000000;
+     text-align: center !important;;
+}
+
+/* footer here starting from  */
+.form-group{
+  position: relative;
+}
+.form-control {
+  width: 376px !important;
+  height: 55px !important;
+  border: 2px solid #000 !important; /* Black border */
+  border-radius: 5px; /* Optional: for rounded corners */
+}
+
+.form-control:focus {
+  border: 2px solid #464673 !important; /* Blue border on focus */
+  outline: none; /* Remove the default focus outline */
+}
+.form-control::placeholder{
+  font-family: "Helvetica", sans-serif;
+font-size: 20.28px;
+font-weight: 400;
+color: #000000;
+
+text-align: left;
+
+
+}
+.form-btn{
+  position: absolute;
+   right: 25px;
+   top: 10px;
+}
+
+.brand-two{
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  align-items: center;
+  gap: 4px;
+
+}
+
+
+.brand-two img {
+  width: 40px;
+  height: 40px;
+}
+.brand-two img h1{
+  font-family: "Space Grotesk", sans-serif !important;
+  font-size: 45px !important;
+}
+.brand-text{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-around !important;
+  align-items: center;
+  margin-top: 55px !important;
+}
+.brand-text p{
+  font-family: Clash Display;
+font-size: 20.49px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+
+
+}
+.quick-menu{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between !important;
+  align-items: center;
+  gap: 18px;
+}
+
+.quick-menu ul{
+  list-style: none;
+}
+.quick-menu ul li a{
+  text-decoration: none;
+}
+.resource-menu{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between !important;
+  align-items: center;
+  gap: 18px;
+}
+.resource-menu ul{
+  list-style: none;
+}
+.resource-menu ul li a{
+  text-decoration: none;
+}
+
+.social-media{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between !important;
+  align-items: center;
+  gap: 18px;
+}
+.social-media ul{
+  list-style: none;
+}
+.social-media ul li a{
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width:425px){
+  .card{
+   margin: auto;
+   margin-top: 2rem;
+  }
+  .brand-two{
+    display: flex !important;
+  
+   
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 35px;
+  
+  }
+
+}
